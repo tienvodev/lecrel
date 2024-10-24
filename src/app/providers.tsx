@@ -12,7 +12,7 @@ import useLocalStorage from "@/hooks/use-local-storage";
 
 export const AppContext = createContext<{
   font: string;
-  setFont: Dispatch<SetStateAction<string>>;
+  setFont: (s: string) => void;
 }>({
   font: "Default",
   setFont: () => {},
