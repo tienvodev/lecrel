@@ -1,0 +1,48 @@
+:root {
+  /* Typeface Variables */
+  --typography-typeface-brand: "Roboto", sans-serif;
+  --typography-typeface-plain: "Merriweather", serif;
+
+  /* Typographic Scale (Font Sizes in rem for scalability) */
+  --typography-typescale-display-large: 3.5625rem; /* ~57px */
+  --typography-typescale-display-medium: 2.8125rem; /* ~45px */
+  --typography-typescale-display-small: 2.25rem; /* ~36px */
+  --typography-typescale-headline-large: 2rem; /* ~32px */
+  --typography-typescale-headline-medium: 1.75rem; /* ~28px */
+  --typography-typescale-headline-small: 1.5rem; /* ~24px */
+  --typography-typescale-body-large: 1.125rem; /* ~18px */
+  --typography-typescale-body-medium: 1rem; /* ~16px */
+  --typography-typescale-body-small: 0.875rem; /* ~14px */
+  --typography-typescale-label-large: 0.875rem; /* ~14px */
+  --typography-typescale-label-medium: 0.75rem; /* ~12px */
+  --typography-typescale-label-small: 0.625rem; /* ~10px */
+
+  /* Font Weights */
+  --typography-weight-regular: 400;
+  --typography-weight-medium: 500;
+  --typography-weight-bold: 700;
+
+  /* Line Heights (relative values for better scaling) */
+  --typography-line-height-display-large: 1.2;
+  --typography-line-height-display-medium: 1.25;
+  --typography-line-height-display-small: 1.3;
+  --typography-line-height-headline-large: 1.4;
+  --typography-line-height-headline-medium: 1.4;
+  --typography-line-height-headline-small: 1.4;
+  --typography-line-height-body-large: 1.5;
+  --typography-line-height-body-medium: 1.5;
+  --typography-line-height-body-small: 1.5;
+  --typography-line-height-label-large: 1.5;
+  --typography-line-height-label-medium: 1.5;
+  --typography-line-height-label-small: 1.4;
+
+  /* Letter Spacing (in px for precision) */
+  --typography-letter-spacing-display: -0.5px;
+  --typography-letter-spacing-headline: 0px;
+  --typography-letter-spacing-body: 0.25px;
+  --typography-letter-spacing-label: 0.5px;
+
+  /* Text Case */
+  --typography-text-transform-uppercase: uppercase;
+  --typography-text-transform-none: none;
+}

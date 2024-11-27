@@ -1,0 +1,29 @@
+:root {
+  /* Intermediary Color Variables Using light-dark() */
+  color-scheme: light dark;
+
+  --color-primary: light-dark(
+    hsl(var(--color-primary-light)),
+    hsl(var(--color-primary-dark))
+  );
+  --color-secondary: light-dark(
+    hsl(var(--color-secondary-light)),
+    hsl(var(--color-secondary-dark))
+  );
+  --color-surface: light-dark(
+    hsl(var(--color-surface-light)),
+    hsl(var(--color-surface-dark))
+  );
+  --color-on-surface: light-dark(
+    hsl(var(--color-on-surface-light)),
+    hsl(var(--color-on-surface-dark))
+  );
+  --color-error: light-dark(
+    hsl(var(--color-error-light)),
+    hsl(var(--color-error-dark))
+  );
+  --color-neutral: light-dark(
+    hsl(var(--color-neutral-light)),
+    hsl(var(--color-neutral-dark))
+  );
+}

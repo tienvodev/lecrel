@@ -1,0 +1,20 @@
+:root {
+  /* Corner Radius Variables */
+  --shape-corner-small: 4px;
+  --shape-corner-medium: 8px;
+  --shape-corner-large: 16px;
+  --shape-corner-extra-large: 24px;
+
+  /* Border Radius for specific components */
+  --shape-corner-pill: 50px; /* Used for pill-shaped elements like buttons */
+  --shape-corner-round: 9999px; /* Full round border-radius for circles */
+
+  /* Shape for shadows, cards, and buttons */
+  --shape-elevation-small: 2px;
+  --shape-elevation-medium: 4px;
+  --shape-elevation-large: 6px;
+
+  /* Elliptical Shape */
+  --shape-ellipse-horizontal: 50% 30%;
+  --shape-ellipse-vertical: 30% 50%;
+}

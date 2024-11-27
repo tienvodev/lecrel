@@ -1,0 +1,77 @@
+/* 
+  Reset.css 
+  Inspired by Josh Comeau's Modern CSS Reset: https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+/* Box sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margins */
+* {
+  margin: 0;
+}
+
+/* Set a consistent line height and remove inherited font size issues */
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape on iOS */
+  color-scheme: light dark;
+}
+
+/* Reset body styles */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+
+/* Remove default padding from lists */
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+/* Remove default decoration from anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Normalize images */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Forms */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Buttons reset */
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+/* Remove animations for people who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

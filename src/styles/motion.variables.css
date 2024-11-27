@@ -1,0 +1,18 @@
+:root {
+  /* Motion Durations */
+  --motion-duration-short: 100ms;
+  --motion-duration-medium: 200ms;
+  --motion-duration-long: 400ms;
+  --motion-duration-extra-long: 600ms;
+
+  /* Easing Functions */
+  --motion-easing-standard: cubic-bezier(0.4, 0, 0.2, 1); /* Default ease */
+  --motion-easing-accelerate: cubic-bezier(0.4, 0, 1, 1); /* Entering objects */
+  --motion-easing-decelerate: cubic-bezier(0, 0, 0.2, 1); /* Exiting objects */
+
+  /* Common Animation Properties */
+  --motion-transform-scale-small: scale(0.95);
+  --motion-transform-scale-large: scale(1.05);
+  --motion-opacity-invisible: 0;
+  --motion-opacity-visible: 1;
+}

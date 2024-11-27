@@ -1,0 +1,17 @@
+:root {
+  /* Elevation Levels (Box Shadows) using HSL */
+  --elevation-level-1: 0 2px 4px hsl(0 0% 0% / 10%), 0 1px 2px hsl(0 0% 0% / 6%);
+  --elevation-level-2: 0 3px 6px hsl(0 0% 0% / 10%), 0 1px 3px hsl(0 0% 0% / 8%);
+  --elevation-level-3: 0 3px 6px hsl(0 0% 0% / 10%), 0 2px 4px hsl(0 0% 0% / 7%);
+  --elevation-level-4: 0 4px 8px hsl(0 0% 0% / 10%), 0 3px 6px hsl(0 0% 0% / 8%);
+  --elevation-level-5: 0 6px 12px hsl(0 0% 0% / 10%),
+    0 4px 8px hsl(0 0% 0% / 7%);
+  --elevation-level-6: 0 8px 16px hsl(0 0% 0% / 10%),
+    0 6px 12px hsl(0 0% 0% / 6%);
+  --elevation-level-7: 0 9px 18px hsl(0 0% 0% / 10%),
+    0 7px 14px hsl(0 0% 0% / 5%);
+  --elevation-level-8: 0 10px 20px hsl(0 0% 0% / 10%),
+    0 8px 16px hsl(0 0% 0% / 4%);
+  --elevation-level-9: 0 12px 24px hsl(0 0% 0% / 10%),
+    0 9px 18px hsl(0 0% 0% / 3%);
+}

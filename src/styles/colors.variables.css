@@ -1,0 +1,20 @@
+:root {
+  /* Base Color Palette (HSL) */
+  --color-primary-light: 200 80% 50%; /* Example: Light Blue */
+  --color-primary-dark: 200 60% 40%; /* Example: Dark Blue */
+
+  --color-secondary-light: 340 70% 60%; /* Example: Light Pink */
+  --color-secondary-dark: 340 50% 50%; /* Example: Dark Pink */
+
+  --color-surface-light: 0 84% 38%; /* Pure White */
+  --color-surface-dark: 240 10% 10%; /* Dark Gray */
+
+  --color-on-surface-light: 240 10% 10%; /* Dark Text on Light */
+  --color-on-surface-dark: 0 0% 90%; /* Light Text on Dark */
+
+  --color-error-light: 0 80% 60%; /* Light Red */
+  --color-error-dark: 0 60% 50%; /* Dark Red */
+
+  --color-neutral-light: 0 0% 90%; /* Light Gray */
+  --color-neutral-dark: 0 0% 20%; /* Dark Gray */
+}
