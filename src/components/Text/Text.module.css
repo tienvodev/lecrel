@@ -1,0 +1,191 @@
+.Text {
+  font-family: var(--md-comp-text-typescale-font);
+  font-weight: var(--md-comp-text-typescale-weight);
+  letter-spacing: var(--md-comp-text-typescale-tracking);
+  font-size: var(--md-comp-text-typescale-size);
+  line-height: var(--md-comp-text-typescale-line-height);
+}
+
+.Text {
+  &[data-typescale="display-large"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-display-large-font);
+    --md-comp-text-typescale-weight: var(
+      --md-sys-typescale-display-large-weight
+    );
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-display-large-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-display-large-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-display-large-line-height
+    );
+  }
+  &[data-typescale="display-medium"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-display-medium-font);
+    --md-comp-text-typescale-weight: var(
+      --md-sys-typescale-display-medium-weight
+    );
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-display-medium-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-display-medium-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-display-medium-line-height
+    );
+  }
+  &[data-typescale="display-small"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-display-small-font);
+    --md-comp-text-typescale-weight: var(
+      --md-sys-typescale-display-small-weight
+    );
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-display-small-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-display-small-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-display-small-line-height
+    );
+  }
+  &[data-typescale="headline-large"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-headline-large-font);
+    --md-comp-text-typescale-weight: var(
+      --md-sys-typescale-headline-large-weight
+    );
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-headline-large-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-headline-large-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-headline-large-line-height
+    );
+  }
+  &[data-typescale="headline-medium"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-headline-medium-font);
+    --md-comp-text-typescale-weight: var(
+      --md-sys-typescale-headline-medium-weight
+    );
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-headline-medium-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-headline-medium-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-headline-medium-line-height
+    );
+  }
+  &[data-typescale="headline-small"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-headline-small-font);
+    --md-comp-text-typescale-weight: var(
+      --md-sys-typescale-headline-small-weight
+    );
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-headline-small-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-headline-small-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-headline-small-line-height
+    );
+  }
+  &[data-typescale="title-large"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-title-large-font);
+    --md-comp-text-typescale-weight: var(--md-sys-typescale-title-large-weight);
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-title-large-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-title-large-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-title-large-line-height
+    );
+  }
+  &[data-typescale="title-medium"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-title-medium-font);
+    --md-comp-text-typescale-weight: var(
+      --md-sys-typescale-title-medium-weight
+    );
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-title-medium-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-title-medium-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-title-medium-line-height
+    );
+  }
+  &[data-typescale="title-small"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-title-small-font);
+    --md-comp-text-typescale-weight: var(--md-sys-typescale-title-small-weight);
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-title-small-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-title-small-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-title-small-line-height
+    );
+  }
+  &[data-typescale="body-large"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-body-large-font);
+    --md-comp-text-typescale-weight: var(--md-sys-typescale-body-large-weight);
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-body-large-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-body-large-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-body-large-line-height
+    );
+  }
+  &[data-typescale="body-medium"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-body-medium-font);
+    --md-comp-text-typescale-weight: var(--md-sys-typescale-body-medium-weight);
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-body-medium-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-body-medium-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-body-medium-line-height
+    );
+  }
+  &[data-typescale="body-small"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-body-small-font);
+    --md-comp-text-typescale-weight: var(--md-sys-typescale-body-small-weight);
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-body-small-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-body-small-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-body-small-line-height
+    );
+  }
+  &[data-typescale="label-large"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-label-large-font);
+    --md-comp-text-typescale-weight: var(--md-sys-typescale-label-large-weight);
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-label-large-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-label-large-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-label-large-line-height
+    );
+  }
+  &[data-typescale="label-medium"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-label-medium-font);
+    --md-comp-text-typescale-weight: var(
+      --md-sys-typescale-label-medium-weight
+    );
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-label-medium-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-label-medium-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-label-medium-line-height
+    );
+  }
+  &[data-typescale="label-small"] {
+    --md-comp-text-typescale-font: var(--md-sys-typescale-label-small-font);
+    --md-comp-text-typescale-weight: var(--md-sys-typescale-label-small-weight);
+    --md-comp-text-typescale-tracking: var(
+      --md-sys-typescale-label-small-tracking
+    );
+    --md-comp-text-typescale-size: var(--md-sys-typescale-label-small-size);
+    --md-comp-text-typescale-line-height: var(
+      --md-sys-typescale-label-small-line-height
+    );
+  }
+}

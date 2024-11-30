@@ -1,48 +1,138 @@
 :root {
-  /* Typeface Variables */
-  --typography-typeface-brand: "Roboto", sans-serif;
-  --typography-typeface-plain: "Merriweather", serif;
+  /* 
+  * Typeface
+  * Refers to font-family and font-weight.
+  */
+  --md-ref-typeface-brand: "Roboto";
+  --md-ref-typeface-plain: system-ui;
+  --md-ref-typeface-weight-regular: 400;
+  --md-ref-typeface-weight-medium: 500;
+  --md-ref-typeface-weight-bold: 700;
+}
 
-  /* Typographic Scale (Font Sizes in rem for scalability) */
-  --typography-typescale-display-large: 3.5625rem; /* ~57px */
-  --typography-typescale-display-medium: 2.8125rem; /* ~45px */
-  --typography-typescale-display-small: 2.25rem; /* ~36px */
-  --typography-typescale-headline-large: 2rem; /* ~32px */
-  --typography-typescale-headline-medium: 1.75rem; /* ~28px */
-  --typography-typescale-headline-small: 1.5rem; /* ~24px */
-  --typography-typescale-body-large: 1.125rem; /* ~18px */
-  --typography-typescale-body-medium: 1rem; /* ~16px */
-  --typography-typescale-body-small: 0.875rem; /* ~14px */
-  --typography-typescale-label-large: 0.875rem; /* ~14px */
-  --typography-typescale-label-medium: 0.75rem; /* ~12px */
-  --typography-typescale-label-small: 0.625rem; /* ~10px */
+:root {
+  /* 
+  * Typescale
+  * A collection of font styles: font-family, font-size, line-height, and font-weight
+  */
 
-  /* Font Weights */
-  --typography-weight-regular: 400;
-  --typography-weight-medium: 500;
-  --typography-weight-bold: 700;
+  /* display-large */
+  --md-sys-typescale-display-large-font: var(--md-ref-typeface-brand);
+  --md-sys-typescale-display-large-weight: var(
+    --md-ref-typeface-weight-regular
+  );
+  --md-sys-typescale-display-large-tracking: -0.25px;
+  --md-sys-typescale-display-large-size: 57px;
+  --md-sys-typescale-display-large-line-height: 64px;
 
-  /* Line Heights (relative values for better scaling) */
-  --typography-line-height-display-large: 1.2;
-  --typography-line-height-display-medium: 1.25;
-  --typography-line-height-display-small: 1.3;
-  --typography-line-height-headline-large: 1.4;
-  --typography-line-height-headline-medium: 1.4;
-  --typography-line-height-headline-small: 1.4;
-  --typography-line-height-body-large: 1.5;
-  --typography-line-height-body-medium: 1.5;
-  --typography-line-height-body-small: 1.5;
-  --typography-line-height-label-large: 1.5;
-  --typography-line-height-label-medium: 1.5;
-  --typography-line-height-label-small: 1.4;
+  /* display-medium */
+  --md-sys-typescale-display-medium-font: var(--md-ref-typeface-brand);
+  --md-sys-typescale-display-medium-weight: var(
+    --md-ref-typeface-weight-regular
+  );
+  --md-sys-typescale-display-medium-size: 45px;
+  --md-sys-typescale-display-medium-line-height: 52px;
+  --md-sys-typescale-display-medium-tracking: 0;
 
-  /* Letter Spacing (in px for precision) */
-  --typography-letter-spacing-display: -0.5px;
-  --typography-letter-spacing-headline: 0px;
-  --typography-letter-spacing-body: 0.25px;
-  --typography-letter-spacing-label: 0.5px;
+  /* display-small */
+  --md-sys-typescale-display-small-font: var(--md-ref-typeface-brand);
+  --md-sys-typescale-display-small-weight: var(
+    --md-ref-typeface-weight-regular
+  );
+  --md-sys-typescale-display-small-size: 36px;
+  --md-sys-typescale-display-small-line-height: 44px;
+  --md-sys-typescale-display-small-tracking: 0;
 
-  /* Text Case */
-  --typography-text-transform-uppercase: uppercase;
-  --typography-text-transform-none: none;
+  /* headline-large */
+  --md-sys-typescale-headline-large-font: var(--md-ref-typeface-brand);
+  --md-sys-typescale-headline-large-weight: var(
+    --md-ref-typeface-weight-regular
+  );
+  --md-sys-typescale-headline-large-size: 32px;
+  --md-sys-typescale-headline-large-line-height: 40px;
+  --md-sys-typescale-headline-large-tracking: 0;
+
+  /* headline-medium */
+  --md-sys-typescale-headline-medium-font: var(--md-ref-typeface-brand);
+  --md-sys-typescale-headline-medium-weight: var(
+    --md-ref-typeface-weight-regular
+  );
+  --md-sys-typescale-headline-medium-size: 28px;
+  --md-sys-typescale-headline-medium-line-height: 36px;
+  --md-sys-typescale-headline-medium-tracking: 0;
+
+  /* headline-small */
+  --md-sys-typescale-headline-small-font: var(--md-ref-typeface-brand);
+  --md-sys-typescale-headline-small-weight: var(
+    --md-ref-typeface-weight-regular
+  );
+  --md-sys-typescale-headline-small-size: 24px;
+  --md-sys-typescale-headline-small-line-height: 32px;
+  --md-sys-typescale-headline-small-tracking: 0;
+
+  /* title-large */
+  --md-sys-typescale-title-large-font: var(--md-ref-typeface-brand);
+  --md-sys-typescale-title-large-weight: var(--md-ref-typeface-weight-regular);
+  --md-sys-typescale-title-large-size: 22px;
+  --md-sys-typescale-title-large-line-height: 28px;
+  --md-sys-typescale-title-large-tracking: 0;
+
+  /* title-medium */
+  --md-sys-typescale-title-medium-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-title-medium-weight: var(--md-ref-typeface-weight-medium);
+  --md-sys-typescale-title-medium-size: 16px;
+  --md-sys-typescale-title-medium-line-height: 24px;
+  --md-sys-typescale-title-medium-tracking: 0.15px;
+
+  /* title-small */
+  --md-sys-typescale-title-small-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-title-small-weight: var(--md-ref-typeface-weight-medium);
+  --md-sys-typescale-title-small-size: 14px;
+  --md-sys-typescale-title-small-line-height: 20px;
+  --md-sys-typescale-title-small-tracking: 0.1px;
+
+  /* body-large */
+  --md-sys-typescale-body-large-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-body-large-weight: var(--md-ref-typeface-weight-regular);
+  --md-sys-typescale-body-large-size: 16px;
+  --md-sys-typescale-body-large-line-height: 24px;
+  --md-sys-typescale-body-large-tracking: 0.5px;
+
+  /* body-medium */
+  --md-sys-typescale-body-medium-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-body-medium-weight: var(--md-ref-typeface-weight-regular);
+  --md-sys-typescale-body-medium-size: 14px;
+  --md-sys-typescale-body-medium-line-height: 20px;
+  --md-sys-typescale-body-medium-tracking: 0.25px;
+
+  /* body-small */
+  --md-sys-typescale-body-small-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-body-small-weight: var(--md-ref-typeface-weight-regular);
+  --md-sys-typescale-body-small-size: 12px;
+  --md-sys-typescale-body-small-line-height: 16px;
+  --md-sys-typescale-body-small-tracking: 0.4px;
+
+  /* label-large */
+  --md-sys-typescale-label-large-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-label-large-weight: var(--md-ref-typeface-weight-medium);
+  --md-sys-typescale-label-large-size: 14px;
+  --md-sys-typescale-label-large-line-height: 20px;
+  --md-sys-typescale-label-large-tracking: 0.1px;
+
+  /* label-medium */
+  --md-sys-typescale-label-medium-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-label-medium-weight: var(--md-ref-typeface-weight-medium);
+  --md-sys-typescale-label-medium-weight-prominent: var(
+    --md-ref-typeface-weight-bold
+  );
+  --md-sys-typescale-label-medium-size: 12px;
+  --md-sys-typescale-label-medium-line-height: 16px;
+  --md-sys-typescale-label-medium-tracking: 0.5px;
+
+  /* label-small */
+  --md-sys-typescale-label-small-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-label-small-weight: var(--md-ref-typeface-weight-medium);
+  --md-sys-typescale-label-small-size: 11px;
+  --md-sys-typescale-label-small-line-height: 16px;
+  --md-sys-typescale-label-small-tracking: 0.5px;
 }

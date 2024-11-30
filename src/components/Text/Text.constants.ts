@@ -1,0 +1,17 @@
+export const TYPE_SCALES = {
+  DISPLAY_LARGE: "display-large",
+  DISPLAY_MEDIUM: "display-medium",
+  DISPLAY_SMALL: "display-small",
+  HEADLINE_LARGE: "headline-large",
+  HEADLINE_MEDIUM: "headline-medium",
+  HEADLINE_SMALL: "headline-small",
+  TITLE_LARGE: "title-large",
+  TITLE_MEDIUM: "title-medium",
+  TITLE_SMALL: "title-small",
+  BODY_LARGE: "body-large",
+  BODY_MEDIUM: "body-medium",
+  BODY_SMALL: "body-small",
+  LABEL_LARGE: "label-large",
+  LABEL_MEDIUM: "label-medium",
+  LABEL_SMALL: "label-small",
+} as const;
