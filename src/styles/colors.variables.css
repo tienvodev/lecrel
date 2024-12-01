@@ -1,20 +1,62 @@
 :root {
-  /* Base Color Palette (HSL) */
-  --color-primary-light: 200 80% 50%; /* Example: Light Blue */
-  --color-primary-dark: 200 60% 40%; /* Example: Dark Blue */
+  --md-ref-pallete-primary-0: 0 0 0; /* hsl(0 0 0) */
+  --md-ref-pallete-primary-5: 260 100 13; /* hsl(260 100 13) */
+  --md-ref-pallete-primary-10: 262 100 18; /* hsl(262 100 18) */
+  --md-ref-pallete-primary-15: 260 73 23; /* hsl(260 73 23) */
+  --md-ref-pallete-primary-20: 259 58 28; /* hsl(259 58 28) */
+  --md-ref-pallete-primary-25: 257 49 33; /* hsl(257 49 33) */
+  --md-ref-pallete-primary-30: 257 43 38; /* hsl(257 43 38) */
+  --md-ref-pallete-primary-35: 257 39 43; /* hsl(257 39 43) */
+  --md-ref-pallete-primary-40: 256 34 48; /* hsl(256 34 48) */
+  --md-ref-pallete-primary-50: 256 40 58; /* hsl(256 40 58) */
+  --md-ref-pallete-primary-60: 256 55 69; /* hsl(256 55 69) */
+  --md-ref-pallete-primary-70: 257 85 79; /* hsl(257 85 79) */
+  --md-ref-pallete-primary-80: 257 100 87; /* hsl(257 100 87) */
+  --md-ref-pallete-primary-90: 261 100 93; /* hsl(261 100 93) */
+  --md-ref-pallete-primary-95: 268 100 97; /* hsl(268 100 97) */
+  --md-ref-pallete-primary-98: 285 100 98; /* hsl(285 100 98) */
+  --md-ref-pallete-primary-99: 300 100 99; /* hsl(300 100 99) */
+  --md-ref-pallete-primary-100: 0 0 100; /* hsl(0 0 100) */
+}
 
-  --color-secondary-light: 340 70% 60%; /* Example: Light Pink */
-  --color-secondary-dark: 340 50% 50%; /* Example: Dark Pink */
+:root {
+  --md-ref-pallete-secondary-0: 0 0 0; /* hsl(0 0 0) */
+  --md-ref-pallete-secondary-5: 257 39 9; /* hsl(257 39 9) */
+  --md-ref-pallete-secondary-10: 257 26 13; /* hsl(257 26 13) */
+  --md-ref-pallete-secondary-15: 256 21 17; /* hsl(256 21 17) */
+  --md-ref-pallete-secondary-20: 258 18 22; /* hsl(258 18 22) */
+  --md-ref-pallete-secondary-25: 257 16 26; /* hsl(257 16 26) */
+  --md-ref-pallete-secondary-30: 257 13 31; /* hsl(257 13 31) */
+  --md-ref-pallete-secondary-35: 259 12 35; /* hsl(259 12 35) */
+  --md-ref-pallete-secondary-40: 259 11 40; /* hsl(259 11 40) */
+  --md-ref-pallete-secondary-50: 260 9 50; /* hsl(260 9 50) */
+  --md-ref-pallete-secondary-60: 260 12 60; /* hsl(260 12 60) */
+  --md-ref-pallete-secondary-70: 262 17 70; /* hsl(262 17 70) */
+  --md-ref-pallete-secondary-80: 262 27 81; /* hsl(262 27 81) */
+  --md-ref-pallete-secondary-90: 262 69 92; /* hsl(262 69 92) */
+  --md-ref-pallete-secondary-95: 268 100 97; /* hsl(268 100 97) */
+  --md-ref-pallete-secondary-98: 285 100 98; /* hsl(285 100 98) */
+  --md-ref-pallete-secondary-99: 300 100 99; /* hsl(300 100 99) */
+  --md-ref-pallete-secondary-100: 0 0 100; /* hsl(0 0 100) */
+}
 
-  --color-surface-light: 0 84% 38%; /* Pure White */
-  --color-surface-dark: 240 10% 10%; /* Dark Gray */
-
-  --color-on-surface-light: 240 10% 10%; /* Dark Text on Light */
-  --color-on-surface-dark: 0 0% 90%; /* Light Text on Dark */
-
-  --color-error-light: 0 80% 60%; /* Light Red */
-  --color-error-dark: 0 60% 50%; /* Dark Red */
-
-  --color-neutral-light: 0 0% 90%; /* Light Gray */
-  --color-neutral-dark: 0 0% 20%; /* Dark Gray */
+:root {
+  --md-ref-pallete-tertiary-0: 0 0 0; /* hsl(0 0 0) */
+  --md-ref-pallete-tertiary-5: 336 71 8; /* hsl(336 71 8) */
+  --md-ref-pallete-tertiary-10: 336 51 13; /* hsl(336 51 13) */
+  --md-ref-pallete-tertiary-15: 339 39 17; /* hsl(339 39 17) */
+  --md-ref-pallete-tertiary-20: 339 33 22; /* hsl(339 33 22) */
+  --md-ref-pallete-tertiary-25: 339 28 26; /* hsl(339 28 26) */
+  --md-ref-pallete-tertiary-30: 340 25 31; /* hsl(340 25 31) */
+  --md-ref-pallete-tertiary-35: 340 23 36; /* hsl(340 23 36) */
+  --md-ref-pallete-tertiary-40: 341 21 41; /* hsl(341 21 41) */
+  --md-ref-pallete-tertiary-50: 342 19 51; /* hsl(342 19 51) */
+  --md-ref-pallete-tertiary-60: 342 25 61; /* hsl(342 25 61) */
+  --md-ref-pallete-tertiary-70: 343 37 72; /* hsl(343 37 72) */
+  --md-ref-pallete-tertiary-80: 343 63 83; /* hsl(343 63 83) */
+  --md-ref-pallete-tertiary-90: 344 100 93; /* hsl(344 100 93) */
+  --md-ref-pallete-tertiary-95: 268 100 97; /* hsl(268 100 97) */
+  --md-ref-pallete-tertiary-98: 285 100 98; /* hsl(285 100 98) */
+  --md-ref-pallete-tertiary-99: 300 100 99; /* hsl(300 100 99) */
+  --md-ref-pallete-tertiary-100: 0 0 100; /* hsl(0 0 100) */
 }

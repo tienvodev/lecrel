@@ -1,22 +1,27 @@
-import type { ReactNode } from "react";
+import { type ComponentProps, type ElementType, type ReactNode } from "react";
 import type { TypeScale } from "./Text.types";
 import styles from "./Text.module.css";
 import clsx from "clsx";
 
-type TextProps = {
-  typescale?: TypeScale;
-  as: keyof JSX.IntrinsicElements;
-  children?: ReactNode;
-  className?: string;
+// Define the props for the Text component
+type TextOwnProps<E extends ElementType> = {
+  typescale?: TypeScale; // Accepts a typescale prop for typography
+  as?: E; // Allow custom element type (like "span", "h1", etc.)
+  children?: ReactNode; // Children elements to render inside the component
+  className?: string; // Custom className for styling
 };
 
-export function Text({
+type TextProps<E extends ElementType> = TextOwnProps<E> &
+  Omit<ComponentProps<E>, keyof TextOwnProps<E>>;
+
+export const Text = <E extends ElementType = "span">({
   typescale = "body-large",
-  as: Component = "div",
+  as,
   children,
   className,
   ...delegated
-}: TextProps) {
+}: TextProps<E>) => {
+  const Component = as || "span";
   return (
     <Component
       {...delegated}
@@ -26,4 +31,4 @@ export function Text({
       {children}
     </Component>
   );
-}
+};
