@@ -81,3 +81,33 @@
   --md-ref-pallete-error-99: 300 100 99; /* hsl(300 100 99) */
   --md-ref-pallete-error-100: 0 0 100; /* hsl(0 0 100) */
 }
+
+:root {
+  --md-ref-pallete-neutral-0: 0 0 0; /* hsl(0 0 0) */
+  --md-ref-pallete-neutral-4: 260 19 6; /* hsl(260 19 6) */
+  --md-ref-pallete-neutral-5: 0 0 7; /* hsl(0 0 7) */
+  --md-ref-pallete-neutral-6: 260 14 8; /* hsl(260 14 8) */
+  --md-ref-pallete-neutral-10: 300 2 11; /* hsl(300 2 11) */
+  --md-ref-pallete-neutral-12: 257 10 14; /* hsl(257 10 14) */
+  --md-ref-pallete-neutral-15: 300 1 15; /* hsl(300 1 15) */
+  --md-ref-pallete-neutral-17: 257 8 17; /* hsl(257 8 17) */
+  --md-ref-pallete-neutral-20: 0 1 19; /* hsl(0 1 19) */
+  --md-ref-pallete-neutral-24: 270 5 23; /* hsl(270 5 23) */
+  --md-ref-pallete-neutral-25: 0 1 23; /* hsl(0 1 23) */
+  --md-ref-pallete-neutral-30: 0 1 28; /* hsl(0 1 28) */
+  --md-ref-pallete-neutral-35: 0 1 33; /* hsl(0 1 33) */
+  --md-ref-pallete-neutral-40: 0 1 37; /* hsl(0 1 37) */
+  --md-ref-pallete-neutral-50: 0 1 47; /* hsl(0 1 47) */
+  --md-ref-pallete-neutral-60: 0 1 57; /* hsl(0 1 57) */
+  --md-ref-pallete-neutral-70: 0 2 67; /* hsl(0 2 67) */
+  --md-ref-pallete-neutral-80: 15 4 78; /* hsl(15 4 78) */
+  --md-ref-pallete-neutral-87: 280 13 86; /* hsl(280 13 86) */
+  --md-ref-pallete-neutral-90: 0 7 89; /* hsl(0 7 89) */
+  --md-ref-pallete-neutral-92: 276 25 92; /* hsl(276 25 92) */
+  --md-ref-pallete-neutral-94: 276 38 95; /* hsl(276 38 95) */
+  --md-ref-pallete-neutral-95: 12 19 95; /* hsl(12 19 95) */
+  --md-ref-pallete-neutral-96: 278 44 96; /* hsl(278 44 96) */
+  --md-ref-pallete-neutral-98: 0 56 98; /* hsl(0 56 98) */
+  --md-ref-pallete-neutral-99: 300 100 99; /* hsl(300 100 99) */
+  --md-ref-pallete-neutral-100: 0 0 100; /* hsl(0 0 100) */
+}
