@@ -1,18 +1,31 @@
 :root {
-  /* Motion Durations */
-  --motion-duration-short: 100ms;
-  --motion-duration-medium: 200ms;
-  --motion-duration-long: 400ms;
-  --motion-duration-extra-long: 600ms;
+  --md-sys-motion-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+  --md-sys-motion-easing-standard-decelerate: cubic-bezier(0, 0, 0, 1);
+  --md-sys-motion-easing-standard-accelerate: cubic-bezier(0.3, 0, 1, 1);
 
-  /* Easing Functions */
-  --motion-easing-standard: cubic-bezier(0.4, 0, 0.2, 1); /* Default ease */
-  --motion-easing-accelerate: cubic-bezier(0.4, 0, 1, 1); /* Entering objects */
-  --motion-easing-decelerate: cubic-bezier(0, 0, 0.2, 1); /* Exiting objects */
+  --md-sys-motion-easing-emphasized: var(--md-sys-motion-easing-standard);
+  --md-sys-motion-easing-emphasized-decelerate: cubic-bezier(0.05, 0.7, 0.1, 1);
+  --md-sys-motion-easing-emphasized-accelerate: cubic-bezier(0.3, 0, 0.8, 0.15);
+}
 
-  /* Common Animation Properties */
-  --motion-transform-scale-small: scale(0.95);
-  --motion-transform-scale-large: scale(1.05);
-  --motion-opacity-invisible: 0;
-  --motion-opacity-visible: 1;
+:root {
+  --md-sys-motion-duration-short-1: 50ms;
+  --md-sys-motion-duration-short-2: 100ms;
+  --md-sys-motion-duration-short-3: 150ms;
+  --md-sys-motion-duration-short-4: 200ms;
+
+  --md-sys-motion-duration-medium-1: 250ms;
+  --md-sys-motion-duration-medium-2: 300ms;
+  --md-sys-motion-duration-medium-3: 350ms;
+  --md-sys-motion-duration-medium-4: 400ms;
+
+  --md-sys-motion-duration-long-1: 450ms;
+  --md-sys-motion-duration-long-2: 500ms;
+  --md-sys-motion-duration-long-3: 550ms;
+  --md-sys-motion-duration-long-4: 600ms;
+
+  --md-sys-motion-duration-extra-long-1: 700ms;
+  --md-sys-motion-duration-extra-long-2: 800ms;
+  --md-sys-motion-duration-extra-long-3: 900ms;
+  --md-sys-motion-duration-extra-long-4: 1000ms;
 }

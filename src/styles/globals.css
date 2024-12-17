@@ -7,7 +7,6 @@
 @import "./motion.variables.css";
 @import "./shapes.variables.css";
 @import "./elevation.variables.css";
-@import "./themes.variables.css";
 
 /* Utility Styles */
 @import "./utilities.css"; /* (If you have utility classes like text-center, flex, etc.) */

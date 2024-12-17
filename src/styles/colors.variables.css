@@ -1,113 +1,103 @@
 :root {
-  --md-ref-pallete-primary-0: 0 0 0; /* hsl(0 0 0) */
-  --md-ref-pallete-primary-5: 260 100 13; /* hsl(260 100 13) */
-  --md-ref-pallete-primary-10: 262 100 18; /* hsl(262 100 18) */
-  --md-ref-pallete-primary-15: 260 73 23; /* hsl(260 73 23) */
-  --md-ref-pallete-primary-20: 259 58 28; /* hsl(259 58 28) */
-  --md-ref-pallete-primary-25: 257 49 33; /* hsl(257 49 33) */
-  --md-ref-pallete-primary-30: 257 43 38; /* hsl(257 43 38) */
-  --md-ref-pallete-primary-35: 257 39 43; /* hsl(257 39 43) */
-  --md-ref-pallete-primary-40: 256 34 48; /* hsl(256 34 48) */
-  --md-ref-pallete-primary-50: 256 40 58; /* hsl(256 40 58) */
-  --md-ref-pallete-primary-60: 256 55 69; /* hsl(256 55 69) */
-  --md-ref-pallete-primary-70: 257 85 79; /* hsl(257 85 79) */
-  --md-ref-pallete-primary-80: 257 100 87; /* hsl(257 100 87) */
-  --md-ref-pallete-primary-90: 261 100 93; /* hsl(261 100 93) */
-  --md-ref-pallete-primary-95: 268 100 97; /* hsl(268 100 97) */
-  --md-ref-pallete-primary-98: 285 100 98; /* hsl(285 100 98) */
-  --md-ref-pallete-primary-99: 300 100 99; /* hsl(300 100 99) */
-  --md-ref-pallete-primary-100: 0 0 100; /* hsl(0 0 100) */
+  --md-sys-color-primary: 350 32 43; /* hsl(350 32 43 / 1) */
+  --md-sys-color-on-primary: 0 0 100; /* hsl(0 0 100 / 1) */
+  --md-sys-color-primary-container: 351 96 82; /* hsl(351 96 82 / 1) */
+  --md-sys-color-on-primary-container: 348 39 32; /* hsl(348 39 32 / 1) */
+  --md-sys-color-secondary: 352 15 40; /* hsl(352 15 40 / 1) */
+  --md-sys-color-on-secondary: 0 0 100; /* hsl(0 0 100 / 1) */
+  --md-sys-color-secondary-container: 353 100 92; /* hsl(353 100 92 / 1) */
+  --md-sys-color-on-secondary-container: 352 19 30; /* hsl(352 19 30 / 1) */
+  --md-sys-color-tertiary: 33 42 34; /* hsl(33 42 34 / 1) */
+  --md-sys-color-on-tertiary: 0 0 100; /* hsl(0 0 100 / 1) */
+  --md-sys-color-tertiary-container: 31 100 82; /* hsl(31 100 82 / 1) */
+  --md-sys-color-on-tertiary-container: 32 46 25; /* hsl(32 46 25 / 1) */
+  --md-sys-color-error: 3 71 41; /* hsl(3 71 41 / 1) */
+  --md-sys-color-on-error: 0 0 100; /* hsl(0 0 100 / 1) */
+  --md-sys-color-error-container: 4 71 92; /* hsl(4 71 92 / 1) */
+  --md-sys-color-on-error-container: 3 71 32; /* hsl(3 71 32 / 1) */
+  --md-sys-color-background: 285 100 98; /* hsl(285 100 98 / 1) */
+  --md-sys-color-on-background: 264 8 12; /* hsl(264 8 12 / 1) */
+  --md-sys-color-surface: 8 100 98; /* hsl(8 100 98 / 1) */
+  --md-sys-color-on-surface: 353 15 12; /* hsl(353 15 12 / 1) */
+  --md-sys-color-surface-variant: 357 38 91; /* hsl(357 38 91 / 1) */
+  --md-sys-color-on-surface-variant: 352 10 29; /* hsl( 352 10 29 / 1) */
+  --md-sys-color-outline: 356 7 48; /* hsl(356 7 48 / 1) */
+  --md-sys-color-outline-variant: 357 21 80; /* hsl(357 21 80 / 1) */
+  --md-sys-color-surface-tint: 350 32 43; /* hsl(350 32 43 / 1) */
+  --md-sys-color-shadow: 0 0 0; /* hsl(0 0 0 / 1) */
+  --md-sys-color-scrim: 0 0 0; /* hsl(0 0 0 / 1) */
+  --md-sys-color-inverse-surface: 353 10 17; /* hsl(353 10 17 / 1) */
+  --md-sys-color-inverse-on-surface: 356 68 95; /* hsl(356 68 95 / 1) */
+  --md-sys-color-inverse-primary: 351 100 85; /* hsl(351 100 85 / 1) */
+  --md-sys-color-primary-fixed: 351 96 82; /* hsl(351 96 82 / 1) */
+  --md-sys-color-on-primary-fixed: 344 79 13; /* hsl(344 79 13 / 1) */
+  --md-sys-color-primary-fixed-dim: 350 55 71; /* hsl(350 55 71 / 1) */
+  --md-sys-color-on-primary-fixed-variant: 348 39 32; /* hsl(348 39 32 / 1) */
+  --md-sys-color-secondary-fixed: 353 100 92; /* hsl(353 100 92 / 1) */
+  --md-sys-color-secondary-fixed-dim: 354 43 82; /* hsl(354 43 82 / 1) */
+  --md-sys-color-on-secondary-fixed-variant: 352 19 30; /* hsl(352 19 30 / 1) */
+  --md-sys-color-tertiary-fixed: 31 100 82; /* hsl(31 100 82 / 1) */
+  --md-sys-color-on-tertiary-fixed: 32 100 8; /* hsl(32 100 8 / 1)*/
+  --md-sys-color-on-tertiary-fixed-dim: 32 60 71; /* hsl(32 60 71 / 1) */
+  --md-sys-color-on-tertiary-fixed-variant: 32 46 25; /* hsl(32 46 25 / 1) */
+  --md-sys-color-surface-dim: 356 26 87; /* hsl(356 26 87 / 1) */
+  --md-sys-color-surface-bright: 8 100 98; /* hsl(8 100 98 / 1) */
+  --md-sys-color-surface-container-lowest: 0 0 100; /* hsl(0 0 100 / 1) */
+  --md-sys-color-surface-container-low: 356 100 97; /* hsl(356 100 97 / 1) */
+  --md-sys-color-surface-container: 356 68 95; /* hsl(356 68 95 / 1) */
+  --md-sys-color-surface-container-high: 357 50 93; /* hsl(357 50 93 / 1) */
+  --md-sys-color-surface-container-highest: 357 38 91; /* hsl(357 38 91 / 1)*/
 }
 
-:root {
-  --md-ref-pallete-secondary-0: 0 0 0; /* hsl(0 0 0) */
-  --md-ref-pallete-secondary-5: 257 39 9; /* hsl(257 39 9) */
-  --md-ref-pallete-secondary-10: 257 26 13; /* hsl(257 26 13) */
-  --md-ref-pallete-secondary-15: 256 21 17; /* hsl(256 21 17) */
-  --md-ref-pallete-secondary-20: 258 18 22; /* hsl(258 18 22) */
-  --md-ref-pallete-secondary-25: 257 16 26; /* hsl(257 16 26) */
-  --md-ref-pallete-secondary-30: 257 13 31; /* hsl(257 13 31) */
-  --md-ref-pallete-secondary-35: 259 12 35; /* hsl(259 12 35) */
-  --md-ref-pallete-secondary-40: 259 11 40; /* hsl(259 11 40) */
-  --md-ref-pallete-secondary-50: 260 9 50; /* hsl(260 9 50) */
-  --md-ref-pallete-secondary-60: 260 12 60; /* hsl(260 12 60) */
-  --md-ref-pallete-secondary-70: 262 17 70; /* hsl(262 17 70) */
-  --md-ref-pallete-secondary-80: 262 27 81; /* hsl(262 27 81) */
-  --md-ref-pallete-secondary-90: 262 69 92; /* hsl(262 69 92) */
-  --md-ref-pallete-secondary-95: 268 100 97; /* hsl(268 100 97) */
-  --md-ref-pallete-secondary-98: 285 100 98; /* hsl(285 100 98) */
-  --md-ref-pallete-secondary-99: 300 100 99; /* hsl(300 100 99) */
-  --md-ref-pallete-secondary-100: 0 0 100; /* hsl(0 0 100) */
-}
-
-:root {
-  --md-ref-pallete-tertiary-0: 0 0 0; /* hsl(0 0 0) */
-  --md-ref-pallete-tertiary-5: 336 71 8; /* hsl(336 71 8) */
-  --md-ref-pallete-tertiary-10: 336 51 13; /* hsl(336 51 13) */
-  --md-ref-pallete-tertiary-15: 339 39 17; /* hsl(339 39 17) */
-  --md-ref-pallete-tertiary-20: 339 33 22; /* hsl(339 33 22) */
-  --md-ref-pallete-tertiary-25: 339 28 26; /* hsl(339 28 26) */
-  --md-ref-pallete-tertiary-30: 340 25 31; /* hsl(340 25 31) */
-  --md-ref-pallete-tertiary-35: 340 23 36; /* hsl(340 23 36) */
-  --md-ref-pallete-tertiary-40: 341 21 41; /* hsl(341 21 41) */
-  --md-ref-pallete-tertiary-50: 342 19 51; /* hsl(342 19 51) */
-  --md-ref-pallete-tertiary-60: 342 25 61; /* hsl(342 25 61) */
-  --md-ref-pallete-tertiary-70: 343 37 72; /* hsl(343 37 72) */
-  --md-ref-pallete-tertiary-80: 343 63 83; /* hsl(343 63 83) */
-  --md-ref-pallete-tertiary-90: 344 100 93; /* hsl(344 100 93) */
-  --md-ref-pallete-tertiary-95: 268 100 97; /* hsl(268 100 97) */
-  --md-ref-pallete-tertiary-98: 285 100 98; /* hsl(285 100 98) */
-  --md-ref-pallete-tertiary-99: 300 100 99; /* hsl(300 100 99) */
-  --md-ref-pallete-tertiary-100: 0 0 100; /* hsl(0 0 100) */
-}
-
-:root {
-  --md-ref-pallete-error-0: 0 0 0; /* hsl(0 0 0) */
-  --md-ref-pallete-error-5: 357 100 9; /* hsl(357 100 9) */
-  --md-ref-pallete-error-10: 356 100 13; /* hsl(356 100 13) */
-  --md-ref-pallete-error-15: 356 100 16; /* hsl(356 100 16) */
-  --md-ref-pallete-error-20: 357 84 22; /* hsl(357 84 22) */
-  --md-ref-pallete-error-25: 359 68 27; /* hsl(359 68 27) */
-  --md-ref-pallete-error-30: 1 60 33; /* hsl(1 60 33) */
-  --md-ref-pallete-error-35: 2 55 38; /* hsl(2 55 38) */
-  --md-ref-pallete-error-40: 2 51 43; /* hsl(2 51 43) */
-  --md-ref-pallete-error-50: 3 51 54; /* hsl(3 51 54) */
-  --md-ref-pallete-error-60: 3 72 65; /* hsl(3 72 65) */
-  --md-ref-pallete-error-70: 4 100 75; /* hsl(4 100 75) */
-  --md-ref-pallete-error-80: 4 100 84; /* hsl(4 100 84) */
-  --md-ref-pallete-error-90: 5 100 92; /* hsl(5 100 92) */
-  --md-ref-pallete-error-95: 6 100 96; /* hsl(6 100 96) */
-  --md-ref-pallete-error-98: 8 100 98; /* hsl(8 100 98) */
-  --md-ref-pallete-error-99: 300 100 99; /* hsl(300 100 99) */
-  --md-ref-pallete-error-100: 0 0 100; /* hsl(0 0 100) */
-}
-
-:root {
-  --md-ref-pallete-neutral-0: 0 0 0; /* hsl(0 0 0) */
-  --md-ref-pallete-neutral-4: 260 19 6; /* hsl(260 19 6) */
-  --md-ref-pallete-neutral-5: 0 0 7; /* hsl(0 0 7) */
-  --md-ref-pallete-neutral-6: 260 14 8; /* hsl(260 14 8) */
-  --md-ref-pallete-neutral-10: 300 2 11; /* hsl(300 2 11) */
-  --md-ref-pallete-neutral-12: 257 10 14; /* hsl(257 10 14) */
-  --md-ref-pallete-neutral-15: 300 1 15; /* hsl(300 1 15) */
-  --md-ref-pallete-neutral-17: 257 8 17; /* hsl(257 8 17) */
-  --md-ref-pallete-neutral-20: 0 1 19; /* hsl(0 1 19) */
-  --md-ref-pallete-neutral-24: 270 5 23; /* hsl(270 5 23) */
-  --md-ref-pallete-neutral-25: 0 1 23; /* hsl(0 1 23) */
-  --md-ref-pallete-neutral-30: 0 1 28; /* hsl(0 1 28) */
-  --md-ref-pallete-neutral-35: 0 1 33; /* hsl(0 1 33) */
-  --md-ref-pallete-neutral-40: 0 1 37; /* hsl(0 1 37) */
-  --md-ref-pallete-neutral-50: 0 1 47; /* hsl(0 1 47) */
-  --md-ref-pallete-neutral-60: 0 1 57; /* hsl(0 1 57) */
-  --md-ref-pallete-neutral-70: 0 2 67; /* hsl(0 2 67) */
-  --md-ref-pallete-neutral-80: 15 4 78; /* hsl(15 4 78) */
-  --md-ref-pallete-neutral-87: 280 13 86; /* hsl(280 13 86) */
-  --md-ref-pallete-neutral-90: 0 7 89; /* hsl(0 7 89) */
-  --md-ref-pallete-neutral-92: 276 25 92; /* hsl(276 25 92) */
-  --md-ref-pallete-neutral-94: 276 38 95; /* hsl(276 38 95) */
-  --md-ref-pallete-neutral-95: 12 19 95; /* hsl(12 19 95) */
-  --md-ref-pallete-neutral-96: 278 44 96; /* hsl(278 44 96) */
-  --md-ref-pallete-neutral-98: 0 56 98; /* hsl(0 56 98) */
-  --md-ref-pallete-neutral-99: 300 100 99; /* hsl(300 100 99) */
-  --md-ref-pallete-neutral-100: 0 0 100; /* hsl(0 0 100) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --md-sys-color-primary: 351 100 85; /* hsl(351 100 85 / 1) */
+    --md-sys-color-on-primary: 347 50 23; /* hsl(347 50 23 / 1) */
+    --md-sys-color-primary-container: 349 38 32; /* hsl(349 38 32 / 1) */
+    --md-sys-color-on-primary-container: 354 100 93; /* hsl(354 100 93 / 1) */
+    --md-sys-color-secondary: 354 43 82; /* hsl(354 43 82 / 1) */
+    --md-sys-color-on-secondary: 351 24 21; /* hsl(351 24 21 / 1) */
+    --md-sys-color-secondary-container: 352 19 30; /* hsl(352 19 30 / 1) */
+    --md-sys-color-on-secondary-container: 354 100 93; /* hsl(354 100 93 / 1) */
+    --md-sys-color-tertiary: 32 68 74; /* hsl(32 68 74 / 1) */
+    --md-sys-color-on-tertiary: 35 82 15; /* hsl(35 82 15 / 1) */
+    --md-sys-color-tertiary-container: 34 54 24; /* hsl(34 54 24 / 1) */
+    --md-sys-color-on-tertiary-container: 31 100 86; /* hsl(31 100 86 / 1) */
+    --md-sys-color-error: 3 70 83; /* hsl(3 70 83 / 1) */
+    --md-sys-color-on-error: 3 71 22; /* hsl(3 71 22 / 1) */
+    --md-sys-color-error-container: 3 71 32; /* hsl(3 71 32 / 1) */
+    --md-sys-color-on-error-container: 4 71 92; /* hsl(4 71 92 / 1) */
+    --md-sys-color-background: 260 14 8; /* hsl(260 14 8 / 1) */
+    --md-sys-color-on-background: 280 17 90; /* hsl(280 17 90 / 1) */
+    --md-sys-color-surface: 353 19 8; /* hsl(353 19 8 / 1) */
+    --md-sys-color-on-surface: 357 38 91; /* hsl(357 38 91 / 1) */
+    --md-sys-color-surface-variant: 357 38 91; /* hsl(357 38 91 / 1) */
+    --md-sys-color-on-surface-variant: 357 21 80; /* hsl( 357 21 80 / 1) */
+    --md-sys-color-outline: 354 9 59; /* hsl(354 9 59 / 1) */
+    --md-sys-color-outline-variant: 352 10 29; /* hsl(352 10 29 / 1) */
+    --md-sys-color-surface-tint: 351 100 85; /* hsl(351 100 85 / 1) */
+    --md-sys-color-shadow: 0 0 0; /* hsl(0 0 0 / 1) */
+    --md-sys-color-scrim: 0 0 0; /* hsl(0 0 0 / 1) */
+    --md-sys-color-inverse-surface: 357 38 91; /* hsl(357 38 91 / 1) */
+    --md-sys-color-inverse-on-surface: 355 10 22; /* hsl(355 10 22 / 1) */
+    --md-sys-color-inverse-primary: 350 32 43; /* hsl(350 32 43 / 1) */
+    --md-sys-color-primary-fixed: 351 96 82; /* hsl(351 96 82 / 1) */
+    --md-sys-color-on-primary-fixed: 344 79 13; /* hsl(344 79 13 / 1) */
+    --md-sys-color-primary-fixed-dim: 350 55 71; /* hsl(350 55 71 / 1) */
+    --md-sys-color-on-primary-fixed-variant: 348 39 32; /* hsl(348 39 32 / 1) */
+    --md-sys-color-secondary-fixed: 353 100 92; /* hsl(353 100 92 / 1) */
+    --md-sys-color-secondary-fixed-dim: 354 43 82; /* hsl(354 43 82 / 1) */
+    --md-sys-color-on-secondary-fixed-variant: 352 19 30; /* hsl(352 19 30 / 1) */
+    --md-sys-color-tertiary-fixed: 31 100 82; /* hsl(31 100 82 / 1) */
+    --md-sys-color-on-tertiary-fixed: 32 100 8; /* hsl(32 100 8 / 1)*/
+    --md-sys-color-on-tertiary-fixed-dim: 32 60 71; /* hsl(32 60 71 / 1) */
+    --md-sys-color-on-tertiary-fixed-variant: 32 46 25; /* hsl(32 46 25 / 1) */
+    --md-sys-color-surface-dim: 353 19 8; /* hsl(353 19 8 / 1) */
+    --md-sys-color-surface-bright: 354 8 24; /* hsl(354 8 24 / 1) */
+    --md-sys-color-surface-container-lowest: 353 25 6; /* hsl(353 25 6 / 1) */
+    --md-sys-color-surface-container-low: 353 15 12; /* hsl(353 15 12 / 1) */
+    --md-sys-color-surface-container: 353 13 13; /* hsl(353 13 13 / 1) */
+    --md-sys-color-surface-container-high: 353 10 17; /* hsl(353 10 17 / 1) */
+    --md-sys-color-surface-container-highest: 355 10 22; /* hsl(355 10 22 / 1) */
+  }
 }
