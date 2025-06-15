@@ -16,7 +16,7 @@ import {
 
 type SignupStep = "email" | "otp" | "credentials";
 
-interface SignupFormProps extends React.ComponentPropsWithoutRef<"div"> {}
+type SignupFormProps = React.ComponentPropsWithoutRef<"div">;
 
 export function SignupForm({ className, ...props }: SignupFormProps) {
   const [currentStep, setCurrentStep] = useState<SignupStep>("email");

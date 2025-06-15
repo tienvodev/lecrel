@@ -16,8 +16,7 @@ import {
 
 type ForgotPasswordStep = "email" | "otp" | "reset";
 
-interface ForgotPasswordFormProps
-  extends React.ComponentPropsWithoutRef<"div"> {}
+type ForgotPasswordFormProps = React.ComponentPropsWithoutRef<"div">;
 
 export function ForgotPasswordForm({
   className,
