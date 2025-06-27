@@ -13,6 +13,8 @@ export const up = (pgm) => {
   pgm.sql`
     CREATE TABLE users (
       id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+      username TEXT UNIQUE NOT NULL,
+      name TEXT NOT NULL,
       email TEXT UNIQUE NOT NULL,
       email_verified_at TIMESTAMP NULL,
       hashed_password TEXT NOT NULL,
@@ -35,6 +37,7 @@ export const up = (pgm) => {
   // Create indexes for better performance
   pgm.sql`
     CREATE INDEX idx_users_email ON users(email);
+    CREATE INDEX idx_users_username ON users(username);
     CREATE INDEX idx_email_otps_email ON email_otps(email);
     CREATE INDEX idx_email_otps_created_at ON email_otps(created_at);
   `;
@@ -50,6 +53,7 @@ export const down = (pgm) => {
   pgm.sql`
     DROP INDEX IF EXISTS idx_email_otps_created_at;
     DROP INDEX IF EXISTS idx_email_otps_email;
+    DROP INDEX IF EXISTS idx_users_username;
     DROP INDEX IF EXISTS idx_users_email;
   `;
 

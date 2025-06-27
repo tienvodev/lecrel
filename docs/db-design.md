@@ -13,6 +13,8 @@ Stores registered user accounts.
 | Column            | Type      | Description               |
 | ----------------- | --------- | ------------------------- |
 | id                | UUID (PK) | Unique user ID            |
+| username          | TEXT      | Unique username, required |
+| name              | TEXT      | Display name, required    |
 | email             | TEXT      | Unique, required          |
 | email_verified_at | TIMESTAMP | Null until verified       |
 | hashed_password   | TEXT      | bcrypt hashed password    |
