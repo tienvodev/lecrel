@@ -1,5 +1,4 @@
 import { Andika, Srisakdi } from "next/font/google";
-("next/font/google");
 
 export const andika = Andika({
   variable: "--font-andika",
