@@ -134,7 +134,7 @@ pnpm dev
 
 ## 📌 Roadmap (In Progress)
 
-- [ ] Init project, style setup (Tailwind + shadcn), GitHub repo
+- [x] Init project, style setup (Tailwind + shadcn), GitHub repo
 - [ ] Authentication + Email OTP Flow
 - [ ] User Dashboard Pages
 - [ ] Novel CRUD + Reading Experience
